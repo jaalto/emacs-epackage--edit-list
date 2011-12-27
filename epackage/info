@@ -1,0 +1,21 @@
+Package: edit-list
+Section: extensions
+License: GPL-2+
+Depends: emacs (>= 22)
+Status: stable
+Compat:
+Maintainer: Jari Aalto <jari.aalto@cante.net>
+Bugs:
+Upstream: Michael Olson <mwolson@gnu.org>
+Upstream-Bugs:
+Vcs-Type: http
+Vcs-Url: http://mwolson.org/static/dist/elisp/edit-list.el
+Vcs-Browser:
+Homepage:
+Wiki:
+Commentary:
+Description: interactively edit a list variable easily
+ So you've just added an incorrect entry to auto-mode-alist and want
+ to fix it quickly.  `M-x edit-list RET auto-mode-alist RET' to the
+ rescue.  Make your changes and hit either `C-x C-s' or `C-c C-c'
+ when done.  Or just kill the buffer if you change your mind.
